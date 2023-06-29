@@ -1,4 +1,4 @@
-# Predicting the Chances of MDD (Major Depressive Disorder) Relapes through Machine Learning Models
+# Predicting the Chances of MDD (Major Depressive Disorder) Relapses through Machine Learning Models
 
 This is an Applied Data Analysis project, where I created Logistic Regression, Decision Tree, and Random Forests model to predict whether a MDD patient will have a relapse.
 

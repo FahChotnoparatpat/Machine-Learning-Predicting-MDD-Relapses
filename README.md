@@ -23,25 +23,25 @@ In this directory, the files include
   * treatment (medicine / psychotherapy / none)
   * relapse (y/n)
 
-* **data_preprocessing**: This file takes the raw data (data.csv) as an input and produces preprocessed_data.csv (95 lines)
+* **data_preprocessing**: This file takes the raw data (data.csv) as an input and produces preprocessed_data.csv
 
-* **multicolinearity**: This file checks for multicolinearity of variables. The author has to manually exclude the variables in preprocessed_data.csv as necessary. (27 lines)
+* **multicolinearity**: This file checks for multicolinearity of variables. The author has to manually exclude the variables in preprocessed_data.csv as necessary.
 
 
 ***Basline Approach:***
 
-* **logistic_regression**: This file takes proprocessed data as an input, performs logistic regression and produces performance evaluation including significant predictors, test error, accuracy, sensitivity, specificity and AUC-ROC. (73 lines)
+* **logistic_regression**: This file takes proprocessed data as an input, performs logistic regression and produces performance evaluation including significant predictors, test error, accuracy, sensitivity, specificity and AUC-ROC.
 
-* **decision_tree**: This file takes proprocessed data as an input, performs decision tree algorithm and produces performance evaluation including accuracy, sensitivity, specificity and AUC-ROC. The author has to manually set the shrinkage values if changes are needed. (62 lines)
+* **decision_tree**: This file takes proprocessed data as an input, performs decision tree algorithm and produces performance evaluation including accuracy, sensitivity, specificity and AUC-ROC. The author has to manually set the shrinkage values if changes are needed.
 
-* **random_forests**: This file takes proprocessed data as an input, performs random forest algorithm and produces performance evaluation including sorted feature importance, accuracy, sensitivity, specificity and AUC-ROC. (64 lines)
+* **random_forests**: This file takes proprocessed data as an input, performs random forest algorithm and produces performance evaluation including sorted feature importance, accuracy, sensitivity, specificity and AUC-ROC.
 
 
 ***Combinatorial Approach:***
 
-* **variable_combination**: This file determines the best feature combination for each model, based on the model's accuracy. (57 lines)
+* **variable_combination**: This file determines the best feature combination for each model, based on the model's accuracy.
 
-* **performance_evaluation**: This file performs logistic regression, decision tree, random forest algorithm with their best feature combination, and produces performance evaluation including accuracy, sensitivity, specificity and AUC-ROC. (85 lines)
+* **performance_evaluation**: This file performs logistic regression, decision tree, random forest algorithm with their best feature combination, and produces performance evaluation including accuracy, sensitivity, specificity and AUC-ROC.
 
 
 You should access the file in this order.
